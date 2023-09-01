@@ -216,6 +216,8 @@ section h1.title {
     width: 100px;
     height: 100px;
     position: relative;
+    border: 4px solid #fff;
+    border-radius: 50%;
 }
 
 .cards-two .photo img {
@@ -260,7 +262,7 @@ section h1.title {
 .cards-two .card-footer i {
     font-size: 25px;
     cursor: pointer;
-    transition: all .5s ease-in;
+    transition: all .3s ease-in;
 }
 
 .cards-two .card-footer i:hover {
