@@ -175,6 +175,7 @@ section h1.title {
     box-shadow: 2px 2px 20px #ccc;
     width: 300px;
     margin: 15px;
+    border-radius: 20px;
 }
 
 .cards-two .card-header {
@@ -195,13 +196,20 @@ section h1.title {
 
 .cards-two h1, h4 {
     text-align: center;
-    color: #fff;
 }
 
 .cards-two .card-header h4 {
     font-weight: normal;
     font-size: 16px;
     margin-top: 5px;
+}
+
+.cards-two .card-header h4{
+    color: #fff;
+}
+
+.cards-two .card-header h1{
+    color: #fff;
 }
 
 .cards-two .card-header .photo {
@@ -216,22 +224,22 @@ section h1.title {
     border-radius: 50%;
 }
 
-.cards-two .card-body .contact{
+.cards-two .card-body .contact {
     display: flex;
     gap: 20px;
     align-items: center;
     color: #1abf9d;
 }
 
-.cards-two .contact i{
+.cards-two .contact i {
     font-size: 20px;
 }
 
-.cards-two .contact .numbers h3{
+.cards-two .contact .numbers h3 {
     font-size: 17px;
 }
 
-.cards-two .contact .numbers h5{
+.cards-two .contact .numbers h5 {
     font-weight: normal;
 }
 
@@ -246,9 +254,16 @@ section h1.title {
     align-items: center;
     border-radius: 10px;
     box-shadow: 4px 4px 20px #ccc;
-    
+
 }
 
-.cards-two .card-footer i{
-    font-size: 25px
+.cards-two .card-footer i {
+    font-size: 25px;
+    cursor: pointer;
+    transition: all .5s ease-in;
+}
+
+.cards-two .card-footer i:hover {
+    color: #fff;
+    transform: translateX(-10px) scale(1.7);
 }
