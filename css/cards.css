@@ -215,20 +215,39 @@ section h1.title {
     border-radius: 50%;
 }
 
-.cards-two .card-footer {
+.cards-two .card-body .contact{
     display: flex;
     gap: 20px;
+    align-items: center;
+    color: #1abf9d;
+}
+
+.cards-two .contact i{
+    font-size: 20px;
+}
+
+.cards-two .contact .numbers h3{
+    font-size: 17px;
+}
+
+.cards-two .contact .numbers h5{
+    font-weight: normal;
+}
+
+.cards-two .card-footer {
+    display: flex;
+    gap: 30px;
     background-color: #1abf9d;
     position: relative;
-    top: 20px;
-    padding: 10px 0px;
+    top: 28px;
+    padding: 15px 0px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 2px 2px 20px #ccc;
+    box-shadow: 4px 4px 20px #ccc;
+    
 }
 
 .cards-two .card-footer i{
-    font-size: 25px;
-    color: #fff;
+    font-size: 25px
 }
