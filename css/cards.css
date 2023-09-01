@@ -210,6 +210,7 @@ section h1.title {
 
 .cards-two .card-header h1{
     color: #fff;
+    letter-spacing: 2px;
 }
 
 .cards-two .card-header .photo {
@@ -268,4 +269,113 @@ section h1.title {
 .cards-two .card-footer i:hover {
     color: #fff;
     transform: translateX(-10px) scale(1.7);
+}
+/*end card*/
+
+
+.cards-tree{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    
+}
+
+.cards-tree .card{
+    box-shadow: 2px 4px 20px #ccc;
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #2f2e2f;
+}
+
+.cards-tree .card-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   gap: 25px;
+}
+
+.cards-tree .card-content .photo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #ac1374;
+    bottom: 65px;
+}
+
+.cards-tree .card-content img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cards-tree .card-content .description{
+    position: relative;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cards-tree .card-content .description h1{
+    color: #ac1374;
+    letter-spacing: 2px;
+}
+
+.cards-tree .card-content .description h5{
+    font-weight: normal;
+    color: #fff;
+    opacity: .7;
+}
+
+.cards-tree .card-content .description h4{
+    font-weight: normal;
+    color: #fff;
+}
+
+.cards-tree .card-content .social-media{
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.cards-tree .social-media a{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #ac1374;
+color: #fff;
+text-decoration: none;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all .4s ease-in;
+}
+
+.cards-tree .social-media a:hover{
+transform: translateY(-5px) scale(1.2);
+    }
+
+.cards-tree .social-media a i{
+   font-size: 25px;
+}
+
+.cards-tree .card-footer{
+    background-color: #ac1374;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.cards-tree .card-footer h6{
+    font-weight: normal;
+    font-size: 17px;
 }
