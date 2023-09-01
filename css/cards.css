@@ -279,12 +279,12 @@ section h1.title {
     align-items: center;
     justify-content: center;
     margin: 50px 0;
-    
+
 }
 
 .cards-tree .card{
-    box-shadow: 2px 4px 20px #ccc;
-    margin: 20px;
+    box-shadow: 4px 4px 20px #ccc;
+    margin: 15px;
     width: 300px;
     border-radius: 20px;
     background-color: #2f2e2f;
@@ -355,7 +355,7 @@ text-decoration: none;
 display: flex;
 justify-content: center;
 align-items: center;
-transition: all .4s ease-in;
+transition: all .2s ease-in;
 }
 
 .cards-tree .social-media a:hover{
