@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+section {
+    padding-top: 50px;
+}
+
+section h1.title{
+    margin: 10px 200px;
+    font-size: 30px;
+}
+
+.cards-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards-one .card {
+    position: relative;
+    width: 300px;
+    box-shadow: 1px 1px 20px #ccc;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 15px;
+}
+
+.cards-one .card::after {
+    content: '';
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background-color: #a92cc8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: -1;
+}
+
+.cards-one .card .image {
+    border: 4px solid #fff;
+    margin-top: 70px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+}
+
+.cards-one .card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.cards-one .social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+}
+
+.cards-one .social-media i {
+    cursor: pointer;
+    color: #fff;
+    opacity: .7;
+    transition: all .2s ease-in;
+}
+
+.cards-one .social-media i:hover {
+    opacity: 1;
+    transform: translateY(-2px) scale(1.8);
+}
+
+.cards-one .contents h1 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.cards-one .contents h4 {
+    margin-top: 5px;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.cards-one .stars {
+    color: #ebc415;
+}
+
+
+.cards-one .buttons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.cards-one .buttons a {
+    padding: 8px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cards-one .buttons a:first-child {
+    border: 2px solid #a92cc8;
+    background-color: transparent;
+    color: #a92cc8;
+}
+
+.cards-one .buttons a:last-child {
+    border: 2px solid transparent;
+    background-color: #a92cc8
+}
+
+.cards-one .buttons a:first-child span {
+    position: absolute;
+    border-radius: 20px;
+    width: 0;
+    height: 100%;
+    opacity: .9;
+    z-index: -1;
+    background-color: #a92cc8;
+    top: 0;
+    left: 0;
+    transition: all .4s ease;
+}
+
+.cards-one .buttons a:first-child:hover span {
+    width: 100%;
+}
+
+.cards-one .buttons a:first-child:hover {
+    color: #fff;
+}
+
+.cards-one .buttons a:last-child:hover {
+    background-color: #fff;
+    border: 2px solid #a92cc8;
+    color: #a92cc8;
+}
+
